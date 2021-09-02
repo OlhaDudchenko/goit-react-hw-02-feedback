@@ -9,7 +9,8 @@ export const Button = styled.button`
   color: ${(props) => props.theme.colors.TextColor};
   font-family: "Lobster", cursive;
   letter-spacing: 0.5px;
-  line-height: 1.5px;
+  text-transform: uppercase;
+
   cursor: pointer;
   transition: ${(props) =>
       `transform${props.theme.colors.animation} ${props.theme.colors.time}`},
